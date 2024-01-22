@@ -1,0 +1,67 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+.movie-search-app > .row {
+	overflow-x: auto;
+	overflow-y: hidden;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+  }
+
+  .movie-search-app > .row::-webkit-scrollbar {
+	height: 8px;
+  }
+
+  .movie-search-app > .row::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 4px;
+  }
+
+  .movie-search-app > .row::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+	border-radius: 4px;
+  }
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	max-width: 93%;
+	height: 20%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 1rem;
+	padding: 1rem;
+	text-align: center;
+	box-sizing: border-box;
+	overflow-wrap: break-word;
+
+}
+
+.favourite-text {
+	margin-right: 0.25rem;
+}
