@@ -23,6 +23,14 @@ The app is responsive.
 ## Video
 
 
+
+
+https://github.com/MateusLima96/movie-search-app/assets/29823372/7822dc69-bc84-4ce1-832a-6afa06f0cc5b
+
+
+
+
+
 ## Autor
 
 <div align="center">
