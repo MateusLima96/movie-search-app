@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Search&message=Movie&color=blueviolet&style=for-the-badge"/>
-
 ## Search Movie App
 
 In this app you are able to look up for any movie and add it to a favourite list.
