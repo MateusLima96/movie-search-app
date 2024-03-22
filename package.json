@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "tsup src --out-dir build",
+    "build": "tsup src --out-dir /opt/build/repo/movie-search-app",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
