@@ -16,12 +16,13 @@
     "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
     "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "tsup src --out-dir build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
